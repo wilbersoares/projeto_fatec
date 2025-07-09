@@ -499,6 +499,7 @@ selected_items_to_compare = st.multiselect(
     available_items,
     max_selections=3,
     key='items_to_compare_multiselect'
+    placeholder="Escolha uma opção"
 )
 
 if len(selected_items_to_compare) > 0:
