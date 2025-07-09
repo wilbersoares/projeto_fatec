@@ -498,7 +498,7 @@ selected_items_to_compare = st.multiselect(
     f"Selecione até 3 {compare_by_selected}s para comparar:",
     available_items,
     max_selections=3,
-    key='items_to_compare_multiselect'
+    key='items_to_compare_multiselect',
     placeholder="Escolha uma opção"
 )
 
