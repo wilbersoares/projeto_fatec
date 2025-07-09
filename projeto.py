@@ -689,4 +689,19 @@ Ele permite explorar tendências, comparar performance de gêneros, plataformas 
 Dados de vendas são apresentados em milhões de unidades e foram pré-processados para garantir a qualidade da análise.
 """)
 
+# --- Adicionar Links das Redes Sociais ---
+st.markdown("---")
+st.subheader("Conecte-se comigo")
+
+#Botões mais juntos em um único bloco markdown
+st.markdown(
+    """
+    [![LinkedIn](https://img.shields.io/badge/LinkedIn-white?style=for-the-badge&logo=linkedin&logoColor=0077B5)](https://www.linkedin.com/in/wilbersoares/)
+    &nbsp; &nbsp; &nbsp; &nbsp; 
+    [![GitHub](https://img.shields.io/badge/GitHub-white?style=for-the-badge&logo=github&logoColor=24292E)](https://github.com/wilbersoares)
+    """
+)
+# O '&nbsp; &nbsp; &nbsp; &nbsp;' é para adicionar um pequeno espaçamento entre eles, se desejar.
+# Se quiser eles completamente colados, remova esses &nbsp;
+
 st.markdown("*Dashboard de Vendas de Videogames | Desenvolvido com Streamlit por Wilber Soares* 🚀")
