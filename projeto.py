@@ -7,17 +7,23 @@ import kagglehub
 
 # --- Configuração da Página ---
 st.set_page_config(
-    page_title="Análise de Vendas de Videogames",
+    page_title="Análise de Vendas de Video Games",
     page_icon="🎮",
     layout="wide"
 )
 
 # --- Título do Dashboard ---
-st.title("🎮 Dashboard de Análise de Vendas de Videogames")
-st.markdown("""
-    Trabalho de Conclusão de Curso do curso de Pós-graduação de Ciência de dados aplicado à inteligência de negócios.
-    Exploração de tendências e comparações de vendas de jogos globais.
-    Dados de vendas em milhões de unidades.
+st.title("🕹️ Desvendando o Universo Gamer: Dashboard de Vendas de Videogames")
+st.markdown(f"""
+    Bem-vindo(a) ao seu portal de análise de vendas de videogames!  
+    Desenvolvido por **Wilber Soares** como seu **Trabalho de Conclusão de Curso** em Ciência de Dados Aplicada à Inteligência de Negócios.
+
+    Prepare-se para uma imersão nos números do mercado global de jogos. Neste dashboard interativo, você poderá:
+    - Desvendar as **tendências históricas** e os picos de venda.
+    - Comparar o sucesso de diferentes **Gêneros, Plataformas e Editoras**.
+    - Entender a força do mercado em diversas **regiões geográficas**.
+
+    Todos os dados de vendas são apresentados em **milhões de unidades**, refletindo a grandiosidade da indústria.
 """)
 st.markdown("---")
 
@@ -684,7 +690,8 @@ st.markdown("---")
 # --- Seção "Sobre" o Dashboard ---
 st.subheader("Sobre este Dashboard")
 st.info(f"""
-Este dashboard foi desenvolvido por **Wilber Soares** para analisar dados de vendas de videogames como trabalho de conclusão de curso do curso de Pós-graduação de Ciência de dados aplicado à inteligência de negócios.
+Este dashboard foi desenvolvido por **Wilber Soares** para analisar dados de vendas de videogames como trabalho de conclusão de curso do curso de  
+Pós-graduação de Ciência de dados aplicado à inteligência de negócios.
 Ele permite explorar tendências, comparar performance de gêneros, plataformas e editoras ao longo dos anos.
 Dados de vendas são apresentados em milhões de unidades e foram pré-processados para garantir a qualidade da análise.
 """)
@@ -704,4 +711,4 @@ st.markdown(
 # O '&nbsp; &nbsp; &nbsp; &nbsp;' é para adicionar um pequeno espaçamento entre eles, se desejar.
 # Se quiser eles completamente colados, remova esses &nbsp;
 
-st.markdown("*Dashboard de Vendas de Videogames | Desenvolvido com Streamlit por Wilber Soares* 🚀")
+st.markdown("*Dashboard de Vendas de Video games | Desenvolvido com Streamlit por Wilber Soares* 🚀")
